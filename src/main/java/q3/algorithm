@@ -1,0 +1,19 @@
+Place your solution to Programming Project 1.6 here.
+
+
+Create a int variable for the lawn mower
+create a int variable rectangular lawn (robotX, robotY)
+create constructors
+set starting position for the robot at 0,0 (bottom left corner)
+in a while or for loop robotX++ until reaching a piece of grass that is unmowed once grass = mowed
+robotY +1 and robox X -- until grass == mowed then repeat until entire lawn is mowed
+
+to fix starting facing a wall
+
+if (robotX++ != red && (robotY % 2) == 0) moves right to bottom right corner
+    robotX++
+    if (robotY++ != red && robotX++ == red){  moves from bottom right up 1
+
+    else if (robotX-- != red && (robotY % 2) > 0){ //moves to top left
+        robotX--
+        if (robotY++ != red && robotX-- == red){
